@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task 7</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+ <body>
+    <script src="./script.js"></script>
+   <div>Задание 1</div> 
+   <hr id="linia" >
+  <input type="button"  value= "Изменить размер лиинии и положение на странице" onclick="ln();">
+   
+   <div>Задание 2</div>
+     Дата рождения:
+  <br> <input type="date" name="t"><font color="red">*данное поле обязательно для заполнения</font> 
+  <br>Должность:
+  <br> <input type="text" name="t">
+  <br> Введите Ваш возраст:
+  <br> <input type="text" name="f"> <br>
+   
+   <div>Задание 3</div>
+<TABLE border=3 align=left> 
+<TR>
+  <TD> Дисциплина<br></TD><TD> Продолжительность<br></TD>
+<TD>Язык<br></TD> <TD> Курс<br></TD>
+</tr>
+<TR>
+  <TD><input type="checkbox" name="lan" value=1 id="check_inf"> Информатика<br></TD>
+  <TD><input type="radio" name="fv1inf" value=100>36
+<input type="radio" name="fv1inf" value=200>64
+<input type="radio" name="fv1inf" value=300>128
+</TD>
+<TD><input type="radio" name="fv1lan" value=100>Русский<br>
+<input type="radio" name="fv1lan" value=500>Английский<br>
+ 
+</TD>
+  <TD><input type="radio" name="fv1co" value=100>1
+<input type="radio" name="fv1co" value=300>2
+<input type="radio" name="fv1co" value=500>3
+</TD>
+  
+</tr>
+  <tr><TD><input type="checkbox" name="lan" value=2 id="check_m"> Математика<br></TD>
+  <TD><input type="radio" name="fvmc" value=100>36
+<input type="radio" name="fvmc" value=200>64
+<input type="radio" name="fvmc" value=300>128
+</TD>
+<TD><input type="radio" name="fvml" value=100>Русский<br>
+<input type="radio" name="fvml" value=500>Английский<br>
+ 
+</TD>
+  <TD><input type="radio" name="fvmc1" value=100>1
+<input type="radio" name="fvmc1" value=300>2
+<input type="radio" name="fvmc1" value=500>3
+</TD>
+<TR>
+ <TD><input type="checkbox" name="lan" value=3 id="check_h"> История<br></TD>
+  <TD><input type="radio" name="fvhd" value=100>36
+<input type="radio" name="fvhd" value=200>64
+<input type="radio" name="fvhd" value=300>128
+</TD>
+<TD><input type="radio" name="fvhl" value=100>Русский<br>
+<input type="radio" name="fvhl" value=500>Английский<br>
+ 
+</TD>
+  <TD><input type="radio" name="fvhc" value=100>1
+<input type="radio" name="fvhc" value=300>2
+<input type="radio" name="fvhc" value=500>3
+</TD>
+  <tr><TD><input type="checkbox" name="lan" value=4 id="check_k"> Культура<br></TD>
+  <TD><input type="radio" name="fv4g" value=100>36
+<input type="radio" name="fv4g" value=200>64
+<input type="radio" name="fv4g" value=300>128
+</TD>
+<TD><input type="radio" name="fv4" value=100>Русский<br>
+<input type="radio" name="fv4" value=500>Английский<br>
+ 
+</TD>
+  <TD><input type="radio" name="fv4a" value=100>1
+<input type="radio" name="fv4a" value=300>2
+<input type="radio" name="fv4a" value=500>3
+</TD></tr>
+</table>
+ 
+<br>
+<br><br><br><br><br><br><br><br>
+<br>
+<br>
+<br><br><br>
+<input type="button" value=Вычислить onClick="anketa()">
+<div>
+Стоимость:
+</div>
+<div id="div_for_insert">
+
+</div>
+
+
+  </body>
+</html>
